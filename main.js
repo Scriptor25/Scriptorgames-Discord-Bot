@@ -23,7 +23,8 @@ client.on('messageCreate', message => {
                 args[idx++] = value;
         });
         if (args[1] === 'ping') {
-            message.reply('pong');
+            let ms = new Date().getTime() - message.createdTimestamp;
+            message.reply('pong: %d ms', ms);
         }
     }
 });
