@@ -1,0 +1,15 @@
+{
+  "name": "scriptorgames-discord-bot",
+  "version": "1.0.0",
+  "description": "my very own discord bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "author": "Felix Schreiber",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  }
+}
